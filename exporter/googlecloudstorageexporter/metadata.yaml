@@ -1,0 +1,14 @@
+type: googlecloudstorage
+scope_name: otelcol/googlecloudstorage
+
+status:
+  class: exporter
+  stability:
+    beta: [logs]
+  distributions: [contrib]
+  codeowners:
+    active: [swiftdiaries]
+
+# TODO: Update the exporter to pass the tests
+tests:
+  skip_lifecycle: true
