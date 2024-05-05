@@ -16,4 +16,5 @@ func newGCSExporter(config *Config, params exporter.CreateSettings) *gcsExporter
 		config: config,
 		logger: params.Logger,
 	}
+	return gcsExporter
 }
